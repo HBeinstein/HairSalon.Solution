@@ -4,7 +4,9 @@ using System.Collections.Generic;
 
 namespace HairSalon.Controllers
 {
-  public class ClassNameController : Controller
+  public class StylistsController : Controller
   {
+
+
   }
 }
