@@ -6,5 +6,6 @@ namespace HairSalon.Controllers
 {
   public class ClassNameController : Controller
   {
+    
   }
 }
