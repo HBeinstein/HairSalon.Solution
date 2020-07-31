@@ -15,9 +15,8 @@ namespace HairSalon.Controllers
       _db = db;
     }
 
-    public ActionResult Index()
+    public ActionResult Show()
     {
-      // List<Client> model = _db.Clients.Include(clients => clients.Stylist).ToList();
       return View();
     }
 
@@ -32,7 +31,7 @@ namespace HairSalon.Controllers
     {
       _db.Clients.Add(client);
       _db.SaveChanges();
-      return RedirectToAction("Index");
+      return RedirectToAction("Show");
     }
   }
 }
