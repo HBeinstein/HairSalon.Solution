@@ -7,11 +7,13 @@
   <p>@Html.ActionLink("Add new Stylist", "Create")</p>
 } 
 
-<h2>Here are all hair stylists currently employed at your salon:</h2>
+
+  <h2>Here are all hair stylists currently employed at your salon:</h2>
 @foreach (Stylist stylist in Model)
 {
   <p>@Html.ActionLink($"{stylist.Name}", "Show", new { id = stylist.StylistId })</p>
 }
 
-<p>@Html.ActionLink("Add new Category", "Create")</p>
+
+<p>@Html.ActionLink("Add new Stylist", "Create")</p>
 <p>@Html.ActionLink("Home", "Index", "Home")</p>
