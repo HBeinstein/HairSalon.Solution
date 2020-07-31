@@ -9,9 +9,10 @@
 
 
   <h2>Here are all hair stylists currently employed at your salon:</h2>
+  <p>Click a stylist's name to see a list of their clients.</p>
 @foreach (Stylist stylist in Model)
 {
-  <p>@Html.ActionLink($"{stylist.Name}", "Show", new { id = stylist.StylistId })</p>
+  <h4>@Html.ActionLink($"{stylist.Name}", "Show", new { id = stylist.StylistId })</h4>
 }
 
 
