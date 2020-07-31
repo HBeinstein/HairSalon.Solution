@@ -12,9 +12,12 @@ _Salon Client Tracker is an program created to practice MVC web app design and m
 
 | Spec | Input | Output |
 | :-------------      | :------------- | :------------- |
-| ** 1. Program will take in inputted word | "apple" | -- |
-| ** 2. Program will return true if word is a palindrome| "hannah" | true |
-| ** 3. Program will return false if word is not a palindrome | "word" | false |
+| ** 1. Program will display an error message if no stylists have been added to database | -- | "No stylists have been added yet!" |
+| ** 2. Program will add new stylists to database | "add stylist" | "Martha" |
+| ** 3. Program will display a list of all stylists | -- | "Jim, Hannah, Michael, Martha" |
+| ** 4. Program will display an error message if no clients have been added to database | -- | "This stylist doesn't have any clients yet!" |
+| ** 5. Program will add new clients to database | "add client" | "Lisa" |
+| ** 6. Program will display a list of all clients belonging to a stylist | Stylist: "Michael" | Clients: "Lisa, Jan, Marcus" |
 
 ## Setup/Installation Requirements
 
