@@ -1,8 +1,8 @@
 using Microsoft.AspNetCore.Mvc;
-using ProjectName.Models;
+using HairSalon.Models;
 using System.Collections.Generic;
 
-namespace ProjectName.Controllers
+namespace HairSalon.Controllers
 {
   public class ClassNameController : Controller
   {

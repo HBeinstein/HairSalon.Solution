@@ -1,5 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
-using ProjectName.Models;
+using HairSalon.Models;
 using System.Collections.Generic;
 
 namespace HairSalon.Controllers
