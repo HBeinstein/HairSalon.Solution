@@ -1,3 +1,4 @@
-body {
-  color: blue;
+body a {
+  font-family: 'helvetica-neue', sans-serif;
+  color: black !important;
 }
